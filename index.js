@@ -13,7 +13,7 @@ app.use(cors({optionSuccessStatus: 200}));  // some legacy browsers choke on 204
 
 
 app.use(express.static("public"))
-app.get("/", function(req, res){
+app.get("/app", function(req, res){
   res.sendFile(__dirname + "/views/index.html")
 
 app.get("/:date_string?", function(req, res){
