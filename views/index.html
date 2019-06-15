@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>Timestamp Microservice</title>
+      <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+      <link href="../public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+
+      <div class="container">
+        <h2>Timestamp Microservice</h2>
+        <h3>This project fulfills the following user stories :</h3>
+        <ol class="user-stories">
+          
+          <li>The API outputs a JSON object in the form of <code>{"unix": &lt;date.getTime()&gt;, "utc" : &lt;date.toUTCString()&gt; }</code></li>
+          <li>A valid date string contained in the project url can either be a unix timestamp in milliseconds or an ISO-8601 compliant date string (e.g. <code>"2016-11-20"</code>) <code>new Date(date_string)</code>.<br>
+          </li>
+          <li>If the date string is empty, the current timestamp is used as the date.</li>
+          <li>If the date string is invalid, the api returns a JSON having the structure <br>
+              <code>{"unix": null, "utc" : "Not a Date" }</code>. 
+          </li>
+        </ol>
+
+        <h3>Click on a link to test the timestamp:</h3>
+        <ul>
+          <li>
+            <a target ="_blank" href = "https://joie-timestamp.glitch.me/56799999">https://joie-timestamp.glitch.me/56799999</a></li>
+          <li><a target ="_blank" href = "https://joie-timestamp.glitch.me/2018-07-06">https://joie-timestamp.glitch.me/2018-07-06</a></li>
+          <li><a target ="_blank" href = "https://joie-timestamp.glitch.me/gyugu78">https://joie-timestamp.glitch.me/gyugu78</a></li>
+        </ul>
+
+        
+      </div>
+      <div class="footer">
+        <p>
+          by <a class = "author" href="https://github.com/Jo-IE">Jo</a> <br>for Free Code Camp.
+        </p>
+      </div>
+   </body>
+
+</html>
