@@ -1,2 +1,2 @@
 # fcc-timestamp
-This is a Microservice Timestamp Project done as part of the FreecodeCamp curriculum.
+This is an API Microservice Timestamp Project done as part of the FreecodeCamp curriculum.
